@@ -1,0 +1,13 @@
+{
+    "name": "teko/tbs",
+    "description": "ticket bying system",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stefan.valchv",
+            "email": "stefan.valchev1@gmail.com"
+        }
+    ],
+    "require": {}
+}

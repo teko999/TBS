@@ -1,0 +1,49 @@
+[  
+      {  
+         "category" : "music",
+         "name":"1 Event",
+         "description":"1 Description event",
+         "location":"Sofia, Bulgaria",
+		 "date":"2016-11-12 23:00:00",
+		 "tickets": [
+			{
+				"price": 40,
+				"quantity": 100,
+				"disscount":30
+			},
+			{
+				"price": 30,
+				"quantity": 100,
+				"disscount":10
+			}
+		]
+      },
+      {  
+         "category" : "dance",
+         "name":"2 Event",
+         "description":"1 Description event",
+         "location":"Sofia, Bulgaria",
+		 "date":"2016-11-12 23:00:00",
+		 "tickets": [
+			{
+				"price": 20,
+				"quantity": 100,
+				"disscount":30
+			}
+		]
+      },
+      {  
+         "category" : "dance",
+         "name":"3 Event",
+         "description":"1 Description event",
+         "location":"Sofia, Bulgaria",
+		 "date":"2016-11-12 23:00:00",
+		 "tickets": [
+			{
+				"price": 20,
+				"quantity": 100,
+				"disscount":30
+			}
+		]
+      }
+   ]

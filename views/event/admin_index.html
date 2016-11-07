@@ -1,0 +1,30 @@
+<?php if(Session::get('login')):?>
+<div class="container">
+    <div class="row">
+        <div class="data-table-container">
+            <table id="myTable">
+                <thead>
+                    <tr>
+                        <th>Event</th>
+                        <th>Price($)</th>
+                        <th>Discount($)</th>
+                        <th>Quantity</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php foreach($data as $ticket):?>
+                    <tr>
+                        <td><?=$ticket['name']?></td>
+                        <td><?=$ticket['price']?></td>
+                        <td><?=$ticket['disscount']?></td>
+                        <td><?=$ticket['quantity']?></td>
+                        <td><a class="btn btn-success" href="/<?=BASE_ROOT?>/admin/event/edit/<?=$ticket['event_id']?>/<?=$ticket['price']?>">Edit</a></td>
+                    </tr>
+                <?php endforeach; ?>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<?php endif;?>
